@@ -1,0 +1,11 @@
+apiVersion: webapp.kops.ust-global-lab.com/v1
+kind: GuestBook
+metadata:
+  name: guestbook-sample
+spec:
+  # Add fields here
+  redisName: redis-sample
+  frontend: 
+    resources: 
+      requests:
+        cpu: 55m

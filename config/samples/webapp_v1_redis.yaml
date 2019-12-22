@@ -1,0 +1,7 @@
+apiVersion: webapp.kops.ust-global-lab.com/v1
+kind: Redis
+metadata:
+  name: redis-sample
+spec:
+  # Add fields here
+  followerReplicas: 1

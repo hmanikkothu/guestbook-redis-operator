@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: guestbook-sample
+spec:
+  backend:
+    serviceName: guestbook-sample
+    servicePort: 8080
