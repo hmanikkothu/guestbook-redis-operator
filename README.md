@@ -30,3 +30,10 @@ make manifests
 kubectl create -f config/crd/bases
 kubectl create -f config/samples/webapp_v1_guestbook.yaml
 ```
+
+### Run controller locally
+
+```
+make run
+```
+
