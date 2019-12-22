@@ -37,7 +37,5 @@ kubectl create -f config/samples/webapp_v1_guestbook.yaml
 make run
 ```
 
-##### 
-```
+#### -
 https://pres.metamagical.dev/kubecon-us-2019/
-```
