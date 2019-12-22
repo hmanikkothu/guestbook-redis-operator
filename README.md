@@ -24,3 +24,14 @@ kubebuilder create api --group webapp --kind Redis --version v1
 ```
 
 ```
+
+### Generate manifests
+```
+make manifests
+```
+
+### Create Guestbook CRDs
+```
+kubectl create -f config/crd/bases
+kubectl create -f config/samples/webapp_v1_guestbook.yaml
+```
