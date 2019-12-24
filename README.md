@@ -28,6 +28,7 @@ make manifests
 ### Create Guestbook CRDs
 ```
 kubectl create -f config/crd/bases
+kubectl create -f config/samples/webapp_v1_redis.yaml
 kubectl create -f config/samples/webapp_v1_guestbook.yaml
 ```
 
@@ -35,6 +36,11 @@ kubectl create -f config/samples/webapp_v1_guestbook.yaml
 
 ```
 make run
+```
+
+```
+# to test the UI locally
+$ kubectl port-forward svc/mywatchlist-sample 7000:8080
 ```
 
 #### -
